@@ -1,17 +1,17 @@
 class Trek < Formula
   desc "A terminal file manager with mouse-resizable panes"
   homepage "https://github.com/bradleyfay/trek"
-  version "0.49.0"
+  version "0.50.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/bradleyfay/trek/releases/download/v0.49.0/trek-aarch64-apple-darwin.tar.gz"
-      sha256 "a1b8d4f03fdb301bac5e3451c3182d96ab7e3766cead0c4f74771d47486ddbda"
+      url "https://github.com/bradleyfay/trek/releases/download/v0.50.0/trek-aarch64-apple-darwin.tar.gz"
+      sha256 "06c42642e38f660deb7c0ffa923208d26bb2d18e36e17fd89838ae8da130458c"
     end
     on_intel do
-      url "https://github.com/bradleyfay/trek/releases/download/v0.49.0/trek-x86_64-apple-darwin.tar.gz"
-      sha256 "173db8d6f43b2c2aac56b91d67e59e2e11cdd01dfab946bc5def3748380b315e"
+      url "https://github.com/bradleyfay/trek/releases/download/v0.50.0/trek-x86_64-apple-darwin.tar.gz"
+      sha256 "a5b59c4144ba81cde45fe916cc00ce4201180945ae01005cf1cd811aace95df6"
     end
   end
 
